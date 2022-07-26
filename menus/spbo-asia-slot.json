@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle spbo-asia-slot",
+        "command": "spbo-asia-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "spbo-asia-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "spbo-asia-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
